@@ -106,13 +106,13 @@ export function About() {
                   {[...partners, ...partners].map((p, i) => (
                     <div
                       key={i}
-                      className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-secondary border border-border p-4"
+                      className="flex h-36 w-64 shrink-0 items-center justify-center rounded-2xl bg-secondary border border-border p-4"
                     >
                       <img
                         src={p.logo}
                         alt={p.name}
                         loading="lazy"
-                        className="max-h-full max-w-full object-contain"
+                        className="max-h-24 max-w-auto object-contain"
                       />
                     </div>
                   ))}
