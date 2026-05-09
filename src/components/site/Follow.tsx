@@ -24,7 +24,7 @@ export function Follow() {
                 href={s.href}
                 target="_blank"
                 rel="noopener"
-                className={`flex shrink-0 items-center gap-3 rounded-2xl bg-card px-6 py-9 shadow-soft border border-border/40 hover:text-white hover:-translate-y-1 hover:shadow-card transition-all duration-300 ${s.color}`}
+                className={`flex shrink-0 items-center gap-3 rounded-2xl bg-card px-6 py-4 shadow-soft border border-border/40 hover:text-white hover:-translate-y-1 hover:shadow-card transition-all duration-300 ${s.color}`}
               >
                 <s.icon className="h-5 w-5" />
                 <span className="font-semibold text-sm">{s.label}</span>
