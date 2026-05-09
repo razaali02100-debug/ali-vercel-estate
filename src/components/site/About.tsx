@@ -112,7 +112,7 @@ export function About() {
                         src={p.logo}
                         alt={p.name}
                         loading="lazy"
-                        className="max-h-24 max-w-full object-contain"
+                        className="max-h-full max-w-full object-contain"
                       />
                     </div>
                   ))}
